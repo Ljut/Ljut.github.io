@@ -1,10 +1,10 @@
 * {
-    /*background-color: white;*/
-    margin:0;
-	padding: 0;
-    background-image: url('Slike/prva pozadina.jpg');
+    background-color: red;/*#A6B5CA;*/
+    margin: 0;
+    padding: 0;
+    /*background-image: url('Slike/prva pozadina.jpg');
     max-width: auto;
-    max-height: auto;
+    max-height: auto;*/
 }
 
 .background_img {
