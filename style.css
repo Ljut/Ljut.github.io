@@ -18,8 +18,8 @@
     padding: 0px;
 }
 .img_size {
-    max-width:14px;
-    max-height:14px;
+    max-width:13px;
+    max-height:13px;
 }
 /*img_list {
     list-style-image: url('image.png');
@@ -34,10 +34,20 @@
 	width: auto;/*50px;*/
     height: auto;
 	display: inline-block;
-	padding: 20px;
+	padding: 22px;
 	text-decoration: none;
 	color: white;
 	float: left;
+}
+.h_li_picture a {
+    background-color: rgb(44, 134, 245);
+    width: auto;/*50px;*/
+    height: auto;
+    display: inline-block;
+    padding: 22px;
+    text-decoration: none;
+    color: white;
+    float: left;
 }
 .h_li a:hover {
 	background-color: white;
