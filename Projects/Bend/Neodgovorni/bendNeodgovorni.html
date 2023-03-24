@@ -28,18 +28,22 @@
             <!--<li class="h_li"><a href="../Ostalo/ostalo.html">Ostalo</a></li>-->
             <!--<li class="h_li desno"><a href="../../index.html"><img src="../../Slike/logo.jpg" height="25px", class=" desno"></a></li>-->
             <li>
-            	<a href="../../../index.html""><img src="../../../Slike/logo.jpg" height="66px" class="h_li desno"></a>
+            	<a href="../../../index.html"><img src="../../../Slike/logo.jpg" height="66px" class="h_li desno"></a>
             </li>
         </ul>
         </div>
         <div>
             First song
-            <audio controls>
-  <source src="horse.ogg" type="audio/ogg">
-  <source src="horse.mp3" type="audio/mpeg">
+            <audio controls id="pjesma">
+                <source src="../../../sounds/audio_tiny44.wav" type="audio/mpeg">
+  <!--<source src="sounds/Beet.mp3" type="audio/mpeg">
+  <source src="horse.mp3" type="audio/mpeg">-->
 Your browser does not support the audio element.
 </audio>
+<input onclick="songToPlay(3)" type="checkbox" id="lyrics" name="vehicle1" value="Bike">
+<label for="vehicle1"> Play with lyrics</label><br>
 <h2>(wait for the 25.3.2023.)</h2>
         </div>
+<script type="text/javascript" src="../../../js.js"></script>
 </body>
 </html>
