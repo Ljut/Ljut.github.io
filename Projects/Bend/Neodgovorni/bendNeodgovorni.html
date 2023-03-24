@@ -33,16 +33,43 @@
         </ul>
         </div>
         <div>
+            <table align="center" border="0" style="margin:10px;">
+                <tr>
+                    <td align="right">&nbsp;</td>
+                    <td align="center" id="naslov" class="toHide">Song: Project 1</td>
+                </tr>
+                <tr>
+                    <td>
             First song
             <audio controls id="pjesma">
-                <source src="../../../sounds/audio_tiny44.wav" type="audio/mpeg">
+                <source src="../../../sounds/catch-action.wav" type="audio/mpeg">
   <!--<source src="sounds/Beet.mp3" type="audio/mpeg">
   <source src="horse.mp3" type="audio/mpeg">-->
 Your browser does not support the audio element.
 </audio>
-<input onclick="songToPlay(3)" type="checkbox" id="lyrics" name="vehicle1" value="Bike">
+&nbsp;
+<input onclick="songToPlay(3)" type="checkbox" id="lyrics">
 <label for="vehicle1"> Play with lyrics</label><br>
-<h2>(wait for the 25.3.2023.)</h2>
+
+            </td>
+            <td width=145px vertical-align="text-bottom" id="opis" class="toHide">
+                    <h2  align="center">Chorus</h2>
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <h2>(wait for the 25.3.2023.)</h2>
+            </td>
+            <td align="center" class="lyrics"  >
+                <h4 class="toHide"id="tekst">Here is a test,<br>
+                Test number 1.<br>
+                Here is a project,<br>
+                Project number 1.<br></h4>
+            </td>
+        </tr>
+    </table>
+
         </div>
 <script type="text/javascript" src="../../../js.js"></script>
 </body>
