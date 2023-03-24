@@ -154,3 +154,15 @@
   cursor: pointer;
   text-align: center;
 }
+
+.lyrics {
+    /*text-align: justify;
+    text-justify: inter-word;*/
+    text-align: center;
+    
+    padding: 10px;
+}
+
+.toHide {
+    display: none;
+}
