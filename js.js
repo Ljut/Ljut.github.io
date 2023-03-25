@@ -3,8 +3,8 @@ function songToPlay(layer=0) {
         let y = document.getElementById("naslov");
         let z = document.getElementById("tekst");
 
-        let songLyrics="sounds/audio_tiny44.wav";
-        let songNoLyrics="sounds/catch-action.wav";
+        let songLyrics="sounds/Beet_with_song.mp3";
+        let songNoLyrics="sounds/Beet_without_song.mp3";
         console.log(layer);
         let path="";
         for(i=0;i<layer;i++) {
