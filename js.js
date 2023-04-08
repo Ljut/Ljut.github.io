@@ -30,8 +30,4 @@ function songToPlay(layer=0) {
                 z.style.display = "none";
         }
         
-          
-          
-          
-
     }
