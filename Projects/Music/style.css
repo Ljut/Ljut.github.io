@@ -1,0 +1,168 @@
+* {
+    background-color: #ADBDD4;/*#A6B5CA;*/
+    margin: 0;
+    padding: 0;
+    /*background-image: url('Slike/prva pozadina.jpg');
+    max-width: auto;
+    max-height: auto;*/
+}
+
+.background_img {
+    /*max-width: 500;
+    max-height: 500;*/
+    background-image: url('Slike/prva pozadina.jpg');
+}
+
+.round_img {
+    border-radius: 50%;
+    padding: 0px;
+}
+.img_size {
+    max-width:13px;
+    max-height:13px;
+}
+/*img_list {
+    list-style-image: url('image.png');
+}*/
+.h_meni {
+    background-color: #75B2F1;
+    list-style-type: none;
+    overflow: auto;
+}
+.h_li a {
+    background-color: rgb(44, 134, 245);
+	width: auto;/*50px;*/
+    height: auto;
+	display: inline-block;
+	padding: 22px;
+	text-decoration: none;
+	color: white;
+	float: left;
+}
+.h_li_picture a {
+    background-color: rgb(44, 134, 245);
+    width: auto;/*50px;*/
+    height: auto;
+    display: inline-block;
+    padding: 22px;
+    text-decoration: none;
+    color: white;
+    float: left;
+}
+.h_li a:hover {
+	background-color: white;
+	color: green;
+}
+.desno {
+    float: right;
+}
+
+.okvir {
+    border: 2px solid black;
+    display: inline-block;
+    float: left;
+    width: 500px;
+    height: 400px;
+    
+}
+.tabela-kontakt {
+    border="2";
+    border-collapse: collapse;
+    width="400px";
+    
+    
+}
+.unutar-polja {
+    background-color: skyblue;
+    
+}
+
+.sidebar {
+    border: 2px solid red;
+	display: inline-block;
+	float: left;
+	width: 500px;
+	height: 400px;
+	background-color: lightpink;
+}
+.kratak-sadrzaj {
+    list-style-type: none;
+    margin: 0px;
+	padding: 0px;
+    border-radius: 5px;
+}
+.kratak-sadrzaj li {
+            list-style-type: none;
+			background-color: rgb(241, 241, 241);
+			margin: 5px;
+			padding: 5px;
+			border: 1px solid rgb(200,200,200);
+			border-radius: 5px;
+			font-size: 15px;
+		}
+.podnaslov {
+    text-align: match-parent;
+}
+.central-text {
+    text-align: justify;
+}
+.bold-text {
+	font-weight: bold;
+}
+.centralni-okvir {
+			margin: 10px;
+			background-color: white;
+			width: 90%;
+		}
+.lista-top{
+    margin-top: 25px;
+    margin-left: 50px;
+}
+.lista {
+    margin-left: 50px;
+    
+}
+
+.fix_block {
+    position: fixed; 
+    bottom: 100px; 
+    right: 50px;
+    border: 1px solid green;
+}
+.fix_block_bottom {
+    position: fixed; 
+    bottom: 0px; 
+    right: 0px;
+    /*border: 1px solid green;*/
+}
+.calculator {
+    /*align-content: center;
+     margin:0 auto;
+    display: inline-block;*/
+   
+    text-align: center;
+}
+
+.block {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.lyrics {
+    /*text-align: justify;
+    text-justify: inter-word;*/
+    text-align: center;
+    
+    padding: 10px;
+}
+
+.toHide {
+    display: none;
+}

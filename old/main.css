@@ -1,0 +1,131 @@
+* {
+	/*background-color: #39C4C6;/*#57A8A8;/*#748A8B;*/
+	/*PALETA: 	#39C4C6 #3B39C6 #397DC6;*/
+	margin: 0;
+	padding: 0;
+	background-image: url('../../src/Slike/roma.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	background-size: cover;
+	color: white;
+	font-size: 17px;
+}
+
+p{
+	/*background-image: none;*/
+	background-image: url('../../src/Slike/roma.jpg');
+	background-repeat: no-repeat;
+}
+
+div{
+	background-image: none;
+	background-repeat: no-repeat;
+}
+
+bg_img {
+	background-image: url('../../src/Slike/roma.jpg');
+	background-repeat: no-repeat;
+}
+
+th, td {
+	padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+  background-attachment: unset;
+  background-size: unset;
+}
+
+a {
+	background-attachment: unset;
+  background-size: unset;
+}
+
+#over img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+tdThAuto {
+	padding-top: auto;
+	padding-bottom: auto;
+	padding-left: auto;
+	padding-right: auto;
+}
+
+/*@font-face {
+  font-family: Comme;
+  src: url("static/fonts/Comme-VariableFont_wght.ttf");
+}
+
+div {
+  font-family: Comme;
+}*/
+
+/*html, body {
+  height: 100%;
+  margin: 0;
+}*/
+
+.prvaKlasa {
+	display: inline-block;
+	float: left;
+	width: 300px;
+	height: 400px;
+	/*background-color: lightpink;
+	border: 2px solid red;*/
+}
+.floatLeft {
+	float: left;
+}
+.widthTD {
+	display: inline-block;
+	width: 170px;
+}
+
+.drugaKlasa {
+	border: 2px solid red;
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	float: right;
+	background-color: lightseagreen;
+}
+
+
+.divDno {
+	width:100%;
+    position: absolute;
+    bottom:0;
+}
+.imgDno {
+	position: relative;
+    display: block;
+    /*float: left;*/
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.centerText {
+  text-align: center;
+}
+
+.centerTable {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*#wrap {
+  margin: 0 auto;
+  padding: 0 20px;
+  min-height: 100%;
+  max-width: 1152px;
+  min-width: 625px;
+  box-sizing: border-box;
+}*/
