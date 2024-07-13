@@ -1,0 +1,27 @@
+<svg viewBox="-150 89 300 110" xmlns="http://www.w3.org/2000/svg">
+<defs>
+    <clipPath id="imageToSee">
+        <rect x="-150" y="0" width="300" height="200" />
+    </clipPath>
+</defs>
+    <!--
+    <rect
+        x="-150" y="89"
+        width="300" height="110"
+        fill="" stroke="aqua"
+     />
+     -->
+     <!--<line x1="0" x2="57" y1="100" y2="" stroke="yellow" transform="rotate(0 0 100)"/>-->
+     <!--<line x1="0" x2="100" y1="100" y2="100" stroke="yellow" transform="rotate(-60.1599 0 100)"/>-->
+     <line x1="-57" x2="50.23" y1="300" y2="112.6" stroke="orange" stroke-width="20" clip-path="url(#imageToSee)"/>
+     <!--<circle cx="73" cy="27" r="27" stroke="yellow" fill="none"/>-->
+     <line x1="-1" x2="73" y1="154" y2="154" stroke="blue" stroke-width="20"/>
+     <!--<path d="M50 13 A73 27 0 0 0 73 54" fill="none" stroke="brown"/>-->
+     <path d="M50,113 A27,27 0 1,1 72,154" fill="none" stroke="blue" stroke-width="20" />
+
+    <!-- <line x1="0" x2="-50.03" y1="200" y2="112.9499" stroke="purple" stroke-width="20" clip-path="url(#imageToSee)"/>-->
+     <line x1="0.1" x2="-73.01" y1="154" y2="154" stroke="blue" stroke-width="20"/>
+     <line x1="57" x2="-50.23" y1="300" y2="112.6" stroke="orange" stroke-width="20" clip-path="url(#imageToSee)"/>
+     <path d="M-50,113 A27,27 0 1,0 -72.9999,154" fill="none" stroke="orange" stroke-width="20" />
+     
+</svg>
